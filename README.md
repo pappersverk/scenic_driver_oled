@@ -1,6 +1,6 @@
 # OLED Scenic Driver
 
-This driver makes OLED compatible with [Scenic](https://github.com/boydm/scenic) thanks to [rpi_fb_capture](https://github.com/fhunleth/rpi_fb_capture).
+This library provides a Scenic driver implementation for [OLED](https://github.com/pappersverk/oled) compatible with [Scenic](https://github.com/boydm/scenic) thanks to [rpi_fb_capture](https://github.com/fhunleth/rpi_fb_capture).
 
 ## Setup
 
@@ -9,7 +9,6 @@ This driver makes OLED compatible with [Scenic](https://github.com/boydm/scenic)
 ```elixir
 def deps do
   [
-    {:oled, "~> 0.3.0"},
     {:scenic_driver_oled, "~> 0.1.0"}
   ]
 end
@@ -45,7 +44,7 @@ config :my_app, :viewport, %{
 ```
 
 
-... or the display module if you have one (Check the Basic Setup on OLED):
+... or the display module if you have one (Check the [Basic Setup](https://github.com/pappersverk/oled#basic-setup) on OLED):
 
 ```elixir
 config :my_app, :viewport, %{
