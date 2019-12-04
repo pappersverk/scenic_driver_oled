@@ -14,7 +14,14 @@ defmodule ScenicDriverOled.MixProject do
       docs: docs(),
       package: package(),
       source_url: "https://github.com/pappersverk/scenic_driver_oled"
+      description: description(),
     ]
+  end
+
+  defp description do
+    """
+    This library provides a [Scenic](https://github.com/boydm/scenic) driver implementation for OLED
+    """
   end
 
   # Run "mix help compile.app" to learn about applications.

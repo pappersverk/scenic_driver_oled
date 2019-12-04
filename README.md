@@ -1,6 +1,6 @@
 # OLED Scenic Driver
 
-This library provides a Scenic driver implementation for [OLED](https://github.com/pappersverk/oled) compatible with [Scenic](https://github.com/boydm/scenic) thanks to [rpi_fb_capture](https://github.com/fhunleth/rpi_fb_capture).
+This library provides a [Scenic](https://github.com/boydm/scenic) driver implementation for [OLED](https://github.com/pappersverk/oled) thanks to [rpi_fb_capture](https://github.com/fhunleth/rpi_fb_capture).
 
 ## Setup
 
