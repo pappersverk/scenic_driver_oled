@@ -61,7 +61,7 @@ defmodule ScenicDriverOled.MixProject do
       {:scenic, "~> 0.10"},
       {:scenic_driver_nerves_rpi, "~> 0.10", targets: @rpi_targets},
       {:rpi_fb_capture, "~> 0.3.0"},
-      {:oled, "~> 0.3"},
+      {:oled, "~> 0.3.5"},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:earmark, "~> 1.3", only: :dev, runtime: false},
     ]

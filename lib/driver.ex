@@ -110,7 +110,7 @@ defmodule OLED.Scenic.Driver do
     crc = :erlang.crc32(frame.data)
 
     if crc != state.last_crc do
-      OLED.Display.Server.display_frame(state.display, frame.data, memory_mode: :vertical)
+      OLED.Display.Server.display_raw_frame(state.display, frame.data, memory_mode: :vertical)
     end
 
     Process.send_after(self(), :capture, 50)
